@@ -1,15 +1,18 @@
 #unobtrusive-flash-messages {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10000;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
 }
 
 #unobtrusive-flash-messages .unobtrusive-flash-message-wrapper {
-  padding: 20px 0;
+  padding: 25px 0;
   background: #dcecaa;
   opacity: 1;
+  font-family: 'Nexa-Book', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 #unobtrusive-flash-messages .unobtrusive-flash-message-wrapper.unobtrusive-flash-error {
