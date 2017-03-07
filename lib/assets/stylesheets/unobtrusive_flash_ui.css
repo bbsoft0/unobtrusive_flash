@@ -1,7 +1,8 @@
 #unobtrusive-flash-messages {
     position: fixed;
     left: 50%;
-    top: 50%;
+    top: 10%;
+    width: 100%;
     transform: translate(-50%, -50%);
     z-index: 10000;
 }
@@ -13,7 +14,7 @@
   font-family: 'Nexa-Book', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-size:14px;
+  font-size:16px;
 }
 
 #unobtrusive-flash-messages .unobtrusive-flash-message-wrapper.unobtrusive-flash-error {
